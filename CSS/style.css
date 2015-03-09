@@ -1,1 +1,17 @@
-
+body {
+	font-family: font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	background-color: #ececec;
+	height: 100%;
+}
+.navbar{
+  /*
+	z-index: 3;
+	
+	background-color: #f57c00;
+	border-radius:0px;
+	box-shadow: 3px 5px 5px #dc6f00;
+	*/
+	height: 40px;
+	margin:0px;
+	border:0px;
+}
