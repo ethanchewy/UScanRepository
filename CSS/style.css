@@ -18,8 +18,10 @@ body {
 .bar1 {
 	width:50%;
 	background-color:#f0f08f;
+	float: left;
 }
 .bar2 {
 	width:50%;
 	background-color:#c9f38f;
+	float: left;
 }
