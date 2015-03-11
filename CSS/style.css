@@ -25,3 +25,10 @@ body {
 	background-color:#c9f38f;
 	float: left;
 }
+
+/* book stuff */
+.items {display:table;list-style:none;margin:0;padding:0;border-spacing:5px;}
+.items li {display:table-row;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;border:1px solid #ccc;padding:5px;margin:0 0 10px 0;}
+.items li img {display:table-cell;vertical-align:top;}
+.items li span.meta {display:table-cell;vertical-align:top;margin:0;padding:0 0 0 5px;}
+.items li {margin:0 0 5px 0;}
