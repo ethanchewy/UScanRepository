@@ -18,19 +18,25 @@
 		$.getJSON( "https://spreadsheets.google.com/feeds/list/11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4/od6/public/values?alt=json-in-script&callback=?",
 			function (data) {	
 				$('div#inventory').append('<ul class="items"></ul>');
-				/*
+				
 				$.each(data.feed.entry, function(i,entry) {	
 					var item = '<span style="display:none">' + entry.id.$t + '</span>';
+					/*
 					item += '<img src="' + entry.gsx$imageurl.$t + '"/>';
-					item += '<span class="meta"><a href="' + entry.gsx$worldcataloguelink.$t + '">' + entry.gsx$title.$t + '</a>';	
+					item += '<span class="meta"><a href="' + entry.gsx$worldcataloguelink.$t + '">' + entry.gsx$title.$t + '</a>';
+					
 					item += '<br/>Author: ' + entry.gsx$author.$t;
 					item += '<br/>Genre: ' + entry.gsx$genre.$t;
 					item += '<br/>Review &amp; Reviewer: <a href="' + entry.gsx$linktoyourblogwebsiteorgoodreadspage.$t + '">' + entry.gsx$yourname.$t + '</a>';
 					item += '<br/>Review Date: ' + entry.gsx$timestamp.$t;	
 					$('.items').append('<li>' + item + '</span></li>');	
+					*/
+					item += '<br/>Tag: ' + entry.gsx$tag.$t;
+					item += '<br/>Item: ' + entry.gsx$thing.$t;
+					
 					});
 				});
-				*/
+				
 			});
 		});
 		</script>
