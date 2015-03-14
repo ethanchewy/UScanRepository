@@ -79,8 +79,9 @@
 			// the other does not.
 			/*
 			var sqlQuery = "select * order by %Team% asc"; // use Google Query Language to specify columns and set your initial sort order. You can use EXACT column names
-			var sqlQuery = "select * order by A asc"; // if your column names may change, or you're not sure what they'll be, use "A", "B", "C", etc. to be safer
 			*/
+			var sqlQuery = "select * order by A asc"; // if your column names may change, or you're not sure what they'll be, use "A", "B", "C", etc. to be safer
+			
 			// ** Load the spreadsheet data **
 			$(function(){
 					getData(mySpreadsheet, sqlQuery); // load the spreadsheet on documentReady, not before
