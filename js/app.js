@@ -72,7 +72,7 @@ function updateSort(options){
 
 
 // Define spreadsheet URL.
-var mySpreadsheet = 'https://docs.google.com/spreadsheet/ccc?key=0AlRp2ieP7izLdGFNOERTZW0xLVpROFc3X3FJQ2tSb2c#gid=0';
+var mySpreadsheet = 'https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=0';
 
 // Load an entire sheet.
 $('#statistics').sheetrock({
