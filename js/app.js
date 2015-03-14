@@ -68,6 +68,6 @@ function updateSort(options){
 			$('#clearFilters').click(function(){clearFilters();});
 			$('#clearFilters').removeClass('disabled');
 		});
-} */
+} 
 
 
