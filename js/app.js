@@ -1,4 +1,4 @@
-function getData(mySpreadsheet, sqlQuery) {
+/*function getData(mySpreadsheet, sqlQuery) {
 		$("#dataTable").tablesorter( {theme: 'bootstrap'} );
 		$('#dataTable').sheetrock({
 				url: mySpreadsheet,
@@ -68,4 +68,13 @@ function updateSort(options){
 			$('#clearFilters').click(function(){clearFilters();});
 			$('#clearFilters').removeClass('disabled');
 		});
-}
+} */
+
+
+// Define spreadsheet URL.
+var mySpreadsheet = 'https://docs.google.com/spreadsheet/ccc?key=0AlRp2ieP7izLdGFNOERTZW0xLVpROFc3X3FJQ2tSb2c#gid=0';
+
+// Load an entire sheet.
+$('#statistics').sheetrock({
+  url: mySpreadsheet
+});
