@@ -16,11 +16,12 @@ $('#runing_low').sheetrock({
 });
 
 $('.bar2').click(function() {
-    $('.bar').animate({
+    $('#runninglow').animate({
       left: "0px"
     }, 200);
-
-    $('body').animate({
+    /*
+    $('#').animate({
       left: "285px"
-    }, 200);
+    }, 200); 
+    */
   });
