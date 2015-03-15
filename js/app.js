@@ -5,3 +5,4 @@ var mySpreadsheet = 'https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sx
 $('#statistics').sheetrock({
   url: mySpreadsheet
 });
+
