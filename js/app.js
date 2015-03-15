@@ -11,7 +11,7 @@ $('#statistics').sheetrock({
 
 $('#runing_low').sheetrock({
   url: mySpreadsheet,
-  sql: "select * order by C desc",
+  sql: "select * order by G desc",
   chunkSize: 10
 });
 
