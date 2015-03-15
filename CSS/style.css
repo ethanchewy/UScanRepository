@@ -1,1 +1,13 @@
+.body {
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+.navbar {
+  position: fixed;
+}
 
+.bar1 {
+  color: #f0f08;
+}
+.bar2 {
+  color: #c9f38f;
+}
