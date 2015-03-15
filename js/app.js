@@ -16,8 +16,8 @@ $('#runing_low').sheetrock({
 });
 
 $('.bar2').click(function() {
-    $('#runninglow').animate({
-      left: "0px"
+    $('.table table-condensed table-striped').animate({
+      left: "-270pxx"
     }, 200);
     /*
     $('#').animate({
