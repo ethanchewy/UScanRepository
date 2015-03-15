@@ -30,8 +30,7 @@ body {
 	width:50%;
 	background-color:#c9f38f;
 	float: left;
-	height: 100%;
-	
+
 }
 #bar2:hover {
 	background-color: #c9f355;
@@ -40,4 +39,8 @@ body {
 
 #tablez {
 	postition:relative;
+}
+
+h1 {
+	color: gray;
 }
