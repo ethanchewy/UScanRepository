@@ -15,13 +15,4 @@ $('#runing_low').sheetrock({
   chunkSize: 10
 });
 
-$('.bar2').click(function() {
-    $('.table table-condensed table-striped').animate({
-      left: "-270pxx"
-    }, 200);
-    /*
-    $('#').animate({
-      left: "285px"
-    }, 200); 
-    */
-  });
+
