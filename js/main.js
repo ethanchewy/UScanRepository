@@ -1,10 +1,10 @@
 var main = function() {
- $('.icon-menu').click(function() {
-    $('.menu').animate({
+ $('.bar2').click(function() {
+    $("table table-condensed table-striped").animate({
       left: "0px"
     }, 200);
 
-    $('body').animate({
+    $("table table-condensed table-striped").animate({
       left: "285px"
     }, 200);
   });
