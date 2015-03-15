@@ -15,3 +15,12 @@ $('#runing_low').sheetrock({
   chunkSize: 10
 });
 
+$('.bar2').click(function() {
+    $('.bar').animate({
+      left: "0px"
+    }, 200);
+
+    $('body').animate({
+      left: "285px"
+    }, 200);
+  });
