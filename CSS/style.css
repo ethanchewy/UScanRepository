@@ -45,3 +45,8 @@ body {
 h1 {
 	color: gray;
 }
+
+.logo {
+	float: bottom;
+	
+}
