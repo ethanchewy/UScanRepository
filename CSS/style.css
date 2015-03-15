@@ -1,13 +1,16 @@
 .body {
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  color: white;
 }
 .navbar {
+  /*
   position: fixed;
+  */
 }
 
 .bar1 {
-  color: #f0f08;
+  background-color: #f0f08;
 }
 .bar2 {
-  color: #c9f38f;
+  background-color: #c9f38f;
 }
