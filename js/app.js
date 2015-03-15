@@ -8,7 +8,7 @@ $('#statistics').sheetrock({
 
 $('#statistics').sheetrock({
   url: mySpreadsheet,
-  sql: "select * where E = 'Both' order by L desc",
+  sql: "select * order by C desc",
   chunkSize: 10
 });
 
