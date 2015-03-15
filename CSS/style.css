@@ -9,8 +9,10 @@
 }
 
 .bar1 {
-  background-color: #f0f08;
+  background-color: #f0f08f;
+  float: left;
 }
 .bar2 {
   background-color: #c9f38f;
+  float: left;
 }
