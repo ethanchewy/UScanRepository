@@ -16,7 +16,7 @@ $('#runing_low').sheetrock({
 });
 
 $('.bar2').click(function() {
-    $("tablez").animate({
+    $(".tablez").animate({
       left: "-500px"
     }, 200);
   });
