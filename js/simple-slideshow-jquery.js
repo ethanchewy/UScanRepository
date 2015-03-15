@@ -1,7 +1,7 @@
 (function ($, window, undefined) {
     $(function(){
         var counter = 0, // to keep track of current slide
-            $items = $('.diy-slideshow figure'), // a collection of all of the slides, caching for performance
+            $items = $('#diy-slideshow figure'), // a collection of all of the slides, caching for performance
             numItems = $items.length; // total number of slides
         
         // this function is what cycles the slides, showing the next or previous slide and hiding all the others
