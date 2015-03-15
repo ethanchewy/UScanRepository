@@ -6,3 +6,9 @@ $('#statistics').sheetrock({
   url: mySpreadsheet
 });
 
+$('#statistics').sheetrock({
+  url: mySpreadsheet,
+  sql: "select * where E = 'Both' order by L desc",
+  chunkSize: 10
+});
+
