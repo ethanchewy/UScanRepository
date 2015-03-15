@@ -6,7 +6,7 @@ $('#statistics').sheetrock({
   url: mySpreadsheet
 });
 
-$('#statistics').sheetrock({
+$('#runing_low').sheetrock({
   url: mySpreadsheet,
   sql: "select * order by C desc",
   chunkSize: 10
