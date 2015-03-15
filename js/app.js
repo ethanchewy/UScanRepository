@@ -24,6 +24,4 @@ $('.bar2').click(function() {
       left: "285px"
     }, 200);
   });
-  
-};
 
