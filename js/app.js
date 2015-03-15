@@ -1,3 +1,4 @@
+/* doesn't work 
 $(document).ready(function() {
   $('.bar2').click(function() {
       $(".tablez").animate({
@@ -6,6 +7,7 @@ $(document).ready(function() {
     });
 });// end ready
 
+*/
 // Define spreadsheet URL.
 var mySpreadsheet = 'https://docs.google.com/spreadsheet/ccc?key=1G2xjX66QgIro6B9yV3A9E5CNINHYAp2gFjrXnfOdjHw#gid=0';
 
