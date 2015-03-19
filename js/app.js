@@ -35,9 +35,8 @@ var formatRows = function (options) {
 };
 
 // Load an entire sheet.
-$('#statistics').sheetrock({
-  url: mySpreadsheet,
-  rowHandler: formatRows
+$('#statistics').formatRows({
+  url: mySpreadsheet
 });
 
 
@@ -47,7 +46,6 @@ $('#runing_low').sheetrock({
   sql: "select * order by C asc",
   chunkSize: 10
 });
-
 
 
 
