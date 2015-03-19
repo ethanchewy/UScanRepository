@@ -25,3 +25,21 @@ $('#runing_low').sheetrock({
   chunkSize: 10
 });
 
+var formatRows = function (options) {
+
+  var columnNumber = 3;
+  var threshhold = 5;
+
+  $('tr', options.target).each(function (i, el) {
+
+    var $tableRow = $(el);
+    var amount = $('td:nth-child(' + columnNumber + ')', $tableRow).text();
+
+    if (parseInt(amount) <= threshhold) {
+      $tableRow.addClass('warning');
+    }
+
+  });
+
+};
+
