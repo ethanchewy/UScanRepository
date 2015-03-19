@@ -35,8 +35,9 @@ var formatRows = function (options) {
 };
 
 // Load an entire sheet.
-$('#statistics').formatRows({
-  url: mySpreadsheet
+$('#statistics').sheetrock({
+  url: mySpreadsheet,
+  formatRows: 10
 });
 
 
