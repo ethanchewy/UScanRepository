@@ -36,7 +36,8 @@ var mySpreadsheet = 'https://docs.google.com/spreadsheet/ccc?key=1G2xjX66QgIro6B
 
 // Load an entire sheet.
 $('#statistics').sheetrock({
-  url: mySpreadsheet
+  url: mySpreadsheet,
+  rowHandler: options
 });
 
 
@@ -46,6 +47,7 @@ $('#runing_low').sheetrock({
   sql: "select * order by C asc",
   chunkSize: 10
 });
+
 
 
 
