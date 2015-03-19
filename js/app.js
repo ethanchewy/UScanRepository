@@ -19,12 +19,6 @@ $('#statistics').sheetrock({
   url: mySpreadsheet
 });
 
-$('#runing_low').sheetrock({
-  url: mySpreadsheet,
-  sql: "select * order by C asc",
-  chunkSize: 10
-});
-
 var formatRows = function (options) {
 
   var columnNumber = 3;
@@ -42,4 +36,12 @@ var formatRows = function (options) {
   });
 
 };
+
+$('#runing_low').sheetrock({
+  url: mySpreadsheet,
+  sql: "select * order by C asc",
+  chunkSize: 10
+});
+
+
 
