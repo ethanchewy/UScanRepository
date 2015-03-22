@@ -175,4 +175,5 @@ html, body, #wrapper {
 #wrapper td {
    vertical-align: middle;
    text-align: center;
+   padding:15px;
 }
