@@ -79,6 +79,9 @@ h1 {
 /* logo stuff */
 .logo {
 	float: top;
+	margin-left: auto;
+        margin-right: auto;
+    	width: 80%;
 	
 }
 
@@ -87,6 +90,7 @@ h1 {
         margin: 0 auto;
         padding: 20px;
 }
+
 /* Slideshow stuff */
 .diy-slideshow{
   position: relative;
