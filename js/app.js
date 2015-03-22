@@ -38,7 +38,7 @@ var formatRows = function (options) {
   var columnNumber = 3;
   var threshhold = 5;
 
-  $('td', options.target).each(function (i, el) {
+  $('tbody', options.target).each(function (i, el) {
 
     var $tableRow = $(el);
     var amount = $('td:nth-child(' + columnNumber + ')', $tableRow).text();
