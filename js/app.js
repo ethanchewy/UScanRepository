@@ -15,22 +15,7 @@ var mySpreadsheet = 'https://docs.google.com/spreadsheet/ccc?key=1G2xjX66QgIro6B
 
 // real sheet => https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=0
 // testing sheet => https://docs.google.com/spreadsheet/ccc?key=1G2xjX66QgIro6B9yV3A9E5CNINHYAp2gFjrXnfOdjHw#gid=0
-var formatRows = function (options) {
 
-  var columnNumber = 3;
-  var threshhold = 5;
-
-  $('tr', options.target).each(function (i, el) {
-
-    var $tableRow = $(el);
-    var amount = $('td:nth-child(columnNumber)', $tableRow).text();
-
-    if (parseInt(amount) <= threshhold) {
-      $tableRow.addClass('warning');
-    }
-
-  });
-};
 
 // Load an entire sheet.
 $('#statistics').sheetrock({
@@ -47,6 +32,23 @@ $('#runing_low').sheetrock({
 });
 */
 
+/* FORMAT ROWS HAS TO DO IT'S THING AFTER SHEETS IS LOADED!*/
+var formatRows = function (options) {
+
+  var columnNumber = 3;
+  var threshhold = 5;
+
+  $('tr', options.target).each(function (i, el) {
+
+    var $tableRow = $(el);
+    var amount = $('td:nth-child(columnNumber)', $tableRow).text();
+
+    if (parseInt(amount) <= threshhold) {
+      $tableRow.addClass('warning');
+    }
+
+  });
+};
 
 
 
