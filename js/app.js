@@ -32,7 +32,6 @@ var formatRows = function (options) {
 
   });
 
-};
 
 
 // Load an entire sheet.
