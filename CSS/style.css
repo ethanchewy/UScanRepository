@@ -83,7 +83,9 @@ h1 {
 }
 
 .col-center{
-  margin:0 auto;
+	width: 80%;
+        margin: 0 auto;
+        padding: 20px;
 }
 /* Slideshow stuff */
 .diy-slideshow{
