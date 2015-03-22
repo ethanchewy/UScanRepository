@@ -76,11 +76,19 @@ h1 {
 	color: gray;
 }
 
+/* logo stuff */
 .logo {
 	float: top;
 	
 }
 
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
 /* Slideshow stuff */
 .diy-slideshow{
   position: relative;
