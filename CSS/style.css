@@ -77,20 +77,28 @@ h1 {
 }
 
 /* logo stuff */
-.logo {
+/*.logo {
 	float: top;
 	margin-left: auto;
         margin-right: auto;
     	width: 100%;
 	
 }
-/*
+
 .col-center{
 	width: 80%;
         margin: 0 auto;
         padding: 20px;
 }
 */
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
 /* Slideshow stuff */
 .diy-slideshow{
   position: relative;
