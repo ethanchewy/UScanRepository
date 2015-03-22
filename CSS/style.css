@@ -140,3 +140,8 @@ figure.show{
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
+
+/*warning class*/
+.warning {
+	color: red;
+}
