@@ -40,7 +40,7 @@ var formatRows = function (options) {
 
   $('tr', options.target).each(function (i, el) {
 
-    var $tableRow = $(el);
+    var $tableRow = $el;
     var amount = $('td:nth-child(' + columnNumber + ')', $tableRow).text();
 
     if (parseInt(amount) <= threshhold) {
