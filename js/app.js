@@ -31,6 +31,7 @@ var formatRows = function (options) {
     }
 
   });
+};
 
 
 
