@@ -35,7 +35,7 @@ $('#runing_low').sheetrock({
 /* FORMAT ROWS HAS TO DO IT'S THING AFTER SHEETS IS LOADED!*/
 var formatRows = function (options) {
 
-  var columnNumber = 2;
+  var columnNumber = 3;
   var threshhold = 5;
 
   $('td', options.target).each(function (i, el) {
