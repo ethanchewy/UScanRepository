@@ -189,7 +189,8 @@ html, body, #wrapper {
     
     left: -5000px;
     top: -5000px;
+    
     */
-    width:0%;
+    display:none;
 }
 
