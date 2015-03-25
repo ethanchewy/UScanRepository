@@ -11,24 +11,42 @@ $(document).ready(function() {
 
 
 // Define spreadsheet URL.
+//Sales Floor
 var mySpreadsheet = 'https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=0';
-var myDataAnalysis = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=1813653491"
+//Data ANalysis
+var myDataAnalysis = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=1813653491";
+//Inventory
+var myInventory = 'https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=1116642020";
+//Purchased
+var myPurchase = 'https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=201486995";
+
 // real sheet => https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=0
 // testing sheet => https://docs.google.com/spreadsheet/ccc?key=1G2xjX66QgIro6B9yV3A9E5CNINHYAp2gFjrXnfOdjHw#gid=0
 
 
-// Load an entire sheet.
+// Load Sales Floor
 $('#statistics').sheetrock({
   url: mySpreadsheet,
   rowHandler: formatRows
 });
 
+//Load Data Analysis
 $('#DataAnalysis').sheetrock({
   url: myDataAnalysis,
   rowHandler: formatRows
 });
 
+//Load Inventory
+$('#Inventory').sheetrock({
+  url: myInventory,
+  rowHandler: formatRows
+});
 
+//Load Purchase
+$('#Purchase').sheetrock({
+  url: myDataAnalysis,
+  rowHandler: formatRows
+});
 /*
 $('#runing_low').sheetrock({
   url: mySpreadsheet,
