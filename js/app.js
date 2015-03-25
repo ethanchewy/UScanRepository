@@ -112,4 +112,7 @@ $('#bar1').click(function(){
 });
 */
 
+$('#bar1').click(function() {
+    $('#Inventory').toggle()
+  });
 
