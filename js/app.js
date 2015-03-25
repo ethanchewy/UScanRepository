@@ -91,8 +91,9 @@ $('.icon-menu').click(function() {
     $('#statistics').slideUp();
 
     $('#Inventory').animate({
-      left:500px;
-    });
+      left: "500px"
+      
+    }, 200);
     
     
     $('#DataAnalysis').slideUp();
