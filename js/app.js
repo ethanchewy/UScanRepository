@@ -122,13 +122,13 @@ $('#bar1').click(function(){
 
 $('#bar1').click(function() {
     $('#Inventory').fadeIn();
-    $('#statistics').slideUp();
+    $('#SalesFloor').slideUp();
     /*$('#DataAnalysis').slideUp(); */
     $('#Purchase').slideUp();
 });
 
 $('#bar2').click(function() {
-    $('#statistics').fadeIn();
+    $('#SalesFloor').fadeIn();
     $('#Inventory').slideUp();
     /*$('#DataAnalysis').slideUp(); */
     $('#Purchase').slideUp();
@@ -138,14 +138,14 @@ $('#bar3').click(function() {
     $('#Purchase').fadeIn();
     $('#Inventory').slideUp();
     /*$('#DataAnalysis').slideUp();*/
-    $('#statistics').slideUp();
+    $('#SalesFloor').slideUp();
 });
 
 $('#bar4').click(function() {
     /*$('#DataAnalysis').fadeIn(); */
     $('#Inventory').fadeIn();
     $('#Purchase').fadeIn();
-    $('#statistics').fadeIn();
+    $('#SalesFloor').fadeIn();
 });
 
 /*
@@ -153,7 +153,7 @@ $('#bar5').click(function() {
     $('#DataAnalysis').fadeIn();
     $('#Inventory').slideUp();
     $('#Purchase').slideUp();
-    $('#statistics').slideUp();
+    $('#SalesFloor').slideUp();
 });
 */
 
