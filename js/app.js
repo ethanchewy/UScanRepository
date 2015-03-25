@@ -86,7 +86,7 @@ $('.icon-menu').click(function() {
   });
 
   /* Then push them back */
-  $('.tab1').click(function() {
+  $('.bar1').click(function() {
     $('#statistics').animate({
       left: "-285px"
     }, 200);
