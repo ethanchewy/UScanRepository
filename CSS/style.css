@@ -184,7 +184,7 @@ html, body, #wrapper {
 }
 
 /* table positioning stuff */
-table {
+.tables {
     position: relative;
     left: -5000px;
     top: -5000px;
