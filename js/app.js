@@ -87,6 +87,7 @@ $('.icon-menu').click(function() {
   });
 */
   /* Then push them back */
+  /*
   $('#bar1').click(function() {
     $('#statistics').slideUp();
 
@@ -102,8 +103,12 @@ $('.icon-menu').click(function() {
   
     
   });
-
-
+  */
+$('#bar1').click(function(){
+    $('#Inventory').stop().animate({
+        'width':'500px'
+    }, 500);
+});
 
 
 
