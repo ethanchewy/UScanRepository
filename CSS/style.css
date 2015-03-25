@@ -177,3 +177,11 @@ html, body, #wrapper {
    text-align: center;
    padding:15px;
 }
+
+/* table positioning stuff */
+table {
+    position: relative;
+    left: -1000px;
+    top: -1000px;
+}
+
