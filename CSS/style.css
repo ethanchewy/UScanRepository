@@ -194,7 +194,7 @@ html, body, #wrapper {
     display:none;
     */
     display:"";
-    bottom:100px;
+    bottom:-1000px;
 
 }
 
