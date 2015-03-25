@@ -207,21 +207,21 @@ footer {
 
 /*table headers*/
 #statheader{
-	color:#f0f05c;	
-	font-size:14px;
+	color:#e5c100;	
+	font-size:25px;
 }
 
 #dataheader {
 	color: #E91E63;
-	font-size:14px;
+	font-size:25px;
 }
 
 #inventoryheader {
 	color:#03A9F4;
-	font-size:14px;
+	font-size:25px;
 }
 
 #purchaseheader {
-	color:#c9f355;
-	font-size:14px;
+	color:#006400 ;
+	font-size:25px;
 }
