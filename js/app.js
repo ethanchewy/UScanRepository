@@ -132,13 +132,14 @@ $('#bar3').click(function() {
     /*$('#DataAnalysis').slideUp();*/
     $('#statistics').slideUp();
 });
-
+/*
 $('#bar4').click(function() {
-    /*$('#DataAnalysis').fadeIn();*/
+    $('#DataAnalysis').fadeIn();
     $('#Inventory').fadeIn();
     $('#Purchase').fadeIn();
     $('#statistics').fadeIn();
 });
+*/
 
 $('#bar5').click(function() {
     /*$('#DataAnalysis').fadeIn();*/
