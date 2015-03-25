@@ -105,7 +105,7 @@ $('.icon-menu').click(function() {
   });
   */
 $('#bar1').click(function(){
-    $('#Inventory').stop().animate({
+    $('#Inventory').animate({
         'width':'100%'
     }, 500);
 });
