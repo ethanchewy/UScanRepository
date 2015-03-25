@@ -104,11 +104,12 @@ $('.icon-menu').click(function() {
     
   });
   */
+  /*
 $('#bar1').click(function(){
     $('#Inventory').animate({
         'width':'100%'
     }, 500);
 });
-
+*/
 
 
