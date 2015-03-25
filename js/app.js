@@ -75,6 +75,7 @@ var formatRows = function (options) {
 };
 
 //Click tab => new spreadsheet
+/*
 $('.icon-menu').click(function() {
     $('.menu').animate({
       left: "0px"
@@ -84,7 +85,7 @@ $('.icon-menu').click(function() {
       left: "285px"
     }, 200);
   });
-
+*/
   /* Then push them back */
   $('.bar1').click(function() {
     $('#statistics').animate({
