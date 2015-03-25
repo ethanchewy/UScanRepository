@@ -172,17 +172,18 @@ html, body, #wrapper {
    padding: 0;
    border: 0;
 }
-#wrapper td {
+#wrapper td {/*
    position:absolute;
+   */
    vertical-align: middle;
    text-align: center;
    padding:15px;
 }
-
+/*
 #logo {
   position:absolute;
 }
-
+*/
 /* table positioning stuff */
 .tables {
     position: relative;
