@@ -228,10 +228,12 @@ footer {
 
 #copyright {
 	float:right;
+	bottom:0;
 }
 
 #license {
 	float:left;
+	bottom:0;
 }
 /*table headers*/
 #statheader{
