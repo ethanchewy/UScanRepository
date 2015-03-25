@@ -113,14 +113,14 @@ $('#bar1').click(function(){
 */
 
 $('#bar1').click(function() {
-    
+    $('#Inventory').animate();
     $('#statistics').slideUp();
     $('#DataAnalysis').slideUp();
     $('#Purchase').slideUp();
 });
 
 $('#bar2').click(function() {
-    
+    $('#statistics').animate();
     $('#Inventory').slideUp();
     $('#DataAnalysis').slideUp();
     $('#Purchase').slideUp();
