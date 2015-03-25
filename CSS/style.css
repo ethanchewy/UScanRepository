@@ -172,9 +172,7 @@ html, body, #wrapper {
    padding: 0;
    border: 0;
 }
-#wrapper td {/*
-   position:absolute;
-   */
+#wrapper td {
    vertical-align: middle;
    text-align: center;
    padding:15px;
