@@ -194,3 +194,8 @@ html, body, #wrapper {
     display:none;
 }
 
+/* footer */
+footer {
+	float:bottom;
+	position: absolute;
+}
