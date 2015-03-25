@@ -1,3 +1,11 @@
+/*
+ UScan Technologies RFID Management System v0.1.0
+ Simplistic, elegant, and efficient RFID Management System
+ uscantechnologies.com
+ License: Attribution-NonCommercial-ShareAlike 4.0 International
+ 
+*/
+
 /* doesn't work 
 $(document).ready(function() {
   $('.bar2').click(function() {
