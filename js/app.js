@@ -126,5 +126,19 @@ $('#bar2').click(function() {
     $('#Purchase').slideUp();
 });
 
+$('#bar3').click(function() {
+    $('#Purchase').fadeIn();
+    $('#Inventory').slideUp();
+    $('#DataAnalysis').slideUp();
+    $('#statistics').slideUp();
+});
+
+$('#bar4').click(function() {
+    $('#DataAnalysis').fadeIn();
+    $('#Inventory').slideUp();
+    $('#Purchase').slideUp();
+    $('#statistics').slideUp();
+});
+
 
 
