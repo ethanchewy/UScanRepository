@@ -74,6 +74,38 @@ var formatRows = function (options) {
 
 };
 
+//Click tab => new spreadsheet
+$('.icon-menu').click(function() {
+    $('.menu').animate({
+      left: "0px"
+    }, 200);
+
+    $('body').animate({
+      left: "285px"
+    }, 200);
+  });
+
+  /* Then push them back */
+  $('.tab1').click(function() {
+    $('#statistics').animate({
+      left: "-285px"
+    }, 200);
+
+    $('#Inventory').animate({
+      left: "0px"
+    }, 200);
+    
+    $('#DataAnalysis').animate({
+      left: "-2000px"
+      
+    }, 200);
+    
+    $('#Purchase').animate({
+      left: "-2000px"
+    }, 200);
+  
+    
+  });
 
 
 
