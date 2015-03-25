@@ -221,11 +221,18 @@ html, body, #wrapper {
 
 /* footer */
 footer {
-	float:right;
+	
 	position: relative;
 	bottom:0;
 }
 
+#copyright {
+	float:right;
+}
+
+#license {
+	float:left;
+}
 /*table headers*/
 #statheader{
 	color:#e5c100;	
@@ -246,3 +253,4 @@ footer {
 	color:#006400 ;
 	font-size:25px;
 }
+
