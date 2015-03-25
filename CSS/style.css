@@ -193,6 +193,7 @@ html, body, #wrapper {
     *//*
     display:none;
     */
+    display:"";
 }
 
 /* footer */
