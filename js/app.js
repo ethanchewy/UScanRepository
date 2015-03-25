@@ -89,11 +89,11 @@ $('.icon-menu').click(function() {
   /* Then push them back */
   $('#bar1').click(function() {
     $('#statistics').slideUp();
-/*
+
     $('#Inventory').animate({
-      left: "0px"
-    }, 200);
-    */
+    });
+    
+    
     $('#DataAnalysis').slideUp();
     
     $('#Purchase').slideUp();
