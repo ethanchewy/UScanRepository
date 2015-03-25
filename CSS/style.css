@@ -17,7 +17,7 @@ body {
 }
 /* bars */
 .bar1 {
-	width:25%;
+	width:20%;
 	background-color:#f0f08f;
 	float: left;
 	
@@ -29,7 +29,7 @@ body {
 }
 
 .bar2 {
-	width:25%;
+	width:20%;
 	background-color:#F8BBD0;
 	float: left;
 	
@@ -41,7 +41,7 @@ body {
 }
 
 .bar3 {
-	width:25%;
+	width:20%;
 	background-color:#B3E5FC;
 	float: left;
 	
@@ -52,17 +52,30 @@ body {
 	box-shadow: 0px 0px 15px 0px  #000;
 }
 
-#bar4 {
-	width:25%;
+.bar4 {
+	width:20%;
+	background-color:Blue;
+	float: left;
+	
+}
+
+.bar4:hover{
+	background-color: "";
+	box-shadow: 0px 0px 15px 0px  #000;
+}
+
+#bar5 {
+	width:20%;
 	background-color:#c9f38f;
 	float: left;
 	height: 70px;
 
 }
-#bar4:hover {
+#bar5:hover {
 	background-color: #c9f355;
 	box-shadow: 0px 0px 15px 0px #000;
 }
+
 
 
 
