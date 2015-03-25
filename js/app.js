@@ -87,23 +87,16 @@ $('.icon-menu').click(function() {
   });
 */
   /* Then push them back */
-  $('.bar1').click(function() {
-    $('#statistics').animate({
-      left: "-285px"
-    }, 200);
-
+  $('#bar1').click(function() {
+    $('#statistics').slideUp();
+/*
     $('#Inventory').animate({
       left: "0px"
     }, 200);
+    */
+    $('#DataAnalysis').slideUp();
     
-    $('#DataAnalysis').animate({
-      left: "-2000px"
-      
-    }, 200);
-    
-    $('#Purchase').animate({
-      left: "-2000px"
-    }, 200);
+    $('#Purchase').slideUp();
   
     
   });
