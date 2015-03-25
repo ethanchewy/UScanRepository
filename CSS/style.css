@@ -196,6 +196,6 @@ html, body, #wrapper {
 
 /* footer */
 footer {
-	float:bottom;
-	position: absolute;
+	float:right;
+	position: relative;
 }
