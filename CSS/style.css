@@ -194,11 +194,13 @@ html, body, #wrapper {
     display:none;
     */
     display:"";
+    bottom:100px;
 
 }
 
 /* footer */
 footer {
 	float:right;
-	position: relative;
+	position: absolute;
+	bottom:0;
 }
