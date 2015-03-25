@@ -114,5 +114,8 @@ $('#bar1').click(function(){
 
 $('#bar1').click(function() {
     $('#Inventory').toggle()
+    $('#statistics').slideUp();
+    $('#DataAnalysis').slideUp();
+    $('#Purchase').slideUp();
   });
 
