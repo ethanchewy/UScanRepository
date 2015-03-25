@@ -44,7 +44,7 @@ $('#Inventory').sheetrock({
 
 //Load Purchase
 $('#Purchase').sheetrock({
-  url: myDataAnalysis,
+  url: myPurchase,
   rowHandler: formatRows
 });
 /*
