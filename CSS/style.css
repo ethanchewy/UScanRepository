@@ -204,3 +204,24 @@ footer {
 	position: relative;
 	bottom:0;
 }
+
+/*table headers*/
+#statheader{
+	color:#f0f05c;	
+	font-size:14px;
+}
+
+#dataheader {
+	color: #E91E63;
+	font-size:14px;
+}
+
+#inventoryheader {
+	color:#03A9F4;
+	font-size:14px;
+}
+
+#purchaseheader {
+	color:#c9f355;
+	font-size:14px;
+}
