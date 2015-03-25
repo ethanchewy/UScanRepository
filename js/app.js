@@ -135,6 +135,13 @@ $('#bar3').click(function() {
 
 $('#bar4').click(function() {
     $('#DataAnalysis').fadeIn();
+    $('#Inventory').fadeIn();
+    $('#Purchase').fadeIn();
+    $('#statistics').fadeIn();
+});
+
+$('#bar5').click(function() {
+    $('#DataAnalysis').fadeIn();
     $('#Inventory').slideUp();
     $('#Purchase').slideUp();
     $('#statistics').slideUp();
