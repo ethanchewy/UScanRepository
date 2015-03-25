@@ -54,13 +54,13 @@ body {
 
 .bar4 {
 	width:20%;
-	background-color:Blue;
+	background-color:#E1BEE7;
 	float: left;
 	
 }
 
 .bar4:hover{
-	background-color: "";
+	background-color: #9C27B0;
 	box-shadow: 0px 0px 15px 0px  #000;
 }
 
