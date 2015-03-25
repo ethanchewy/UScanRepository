@@ -194,6 +194,7 @@ html, body, #wrapper {
     display:none;
     */
     display:"";
+    float: left;
 }
 
 /* footer */
