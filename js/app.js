@@ -41,7 +41,7 @@ var formatRows = function (row) {
         return "<tr class='warning'><td>" + row.cells.Amount + "</td></tr>";
     }
     return "<tr><td>" + row.cells.Amount + "</td></tr>";
-    return "<tr><td>" + row.cells + "</td></tr>";
+    return "<tr><td>" + row.column + "</td></tr>";
 };
 
 // Load Sales Floor
