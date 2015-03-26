@@ -37,11 +37,11 @@ var threshold = 5;
 
 var formatRows = function (row) {
     console.log(row); 
+    console.log(column);
     if (row.cells.Amount < threshold) {
         return "<tr class='warning'><td>" + row.cells.Amount + "</td></tr>";
     }
     return "<tr><td>" + row.cells.Amount + "</td></tr>";
-    return "<tr><td>" + row.column + "</td></tr>";
 };
 
 // Load Sales Floor
