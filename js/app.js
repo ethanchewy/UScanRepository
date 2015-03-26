@@ -37,6 +37,9 @@ var threshold = 5;
 
 var formatRows = function (row) {
     var cell;
+    var tag = (row.num) ? 'td' : 'th';
+
+    
     console.log(row); 
     if (row.cells.Amount < threshold) {
         return "<tr class='warning'><td>" + row.cells.Amount + "</td></tr>";
