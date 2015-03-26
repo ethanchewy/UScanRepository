@@ -37,10 +37,10 @@ var threshold = 5;
 
 var formatRows = function (row) {
     console.log(row);
-    if (row.cells.Inventory < threshold) {
-        return "<tr class='warning'>" + row.cells.Inventory + "</tr>";
+    if (row.cells.Amount < threshold) {
+        return "<tr class='warning'><td>" + row.cells.Amount + "</td></tr>";
     }
-    return "<tr>" + row.cells.Inventory + "</td>";
+    return "<tr><td>" + row.cells.Amount + "</td></tr>";
 };
 
 
