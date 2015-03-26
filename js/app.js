@@ -36,19 +36,11 @@ var myPurchase = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4
 var threshold = 5;
 
 var formatRows = function (row) {
-    var cell;
-    var tag = (row.num) ? 'td' : 'th';
-
-    
-    console.log(row); 
-    if (row.cells.Amount < threshold) {
-        return "<tr class='warning'><td>" + row.cells.Amount + "</td></tr>";
-    } else if
-      (row.cells.hasOwnProperty(cell)) {
-        // Wrap the cell value in the cell tag.
-        html += wrapTag(row.cells[cell], tag, '');
-      }
-    return "<tr><td>" + row.cells.Amount + "</td></tr>";
+    console.log(row);
+    if (row.cells.Inventory < threshold) {
+        return "<tr class='warning'>" + row.cells.Inventory + "</tr>";
+    }
+    return "<tr>" + row.cells.Inventory + "</td>";
 };
 
 
