@@ -20,7 +20,7 @@ $(document).ready(function() {
 
 // Define spreadsheet URL.
 //Sales Floor
-var mySpreadsheet = 'https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=0';
+var mySalesFloor = 'https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=0';
 //Data Analysis
 var myDataAnalysis = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=1813653491";
 //Inventory
@@ -34,7 +34,7 @@ var myPurchase = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4
 
 // Load Sales Floor
 $('#SalesFloor').sheetrock({
-  url: mySpreadsheet,
+  url: mySalesFloor,
   rowHandler: formatRows
 });
 
