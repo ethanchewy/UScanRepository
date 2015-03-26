@@ -43,6 +43,31 @@ var formatRows = function (row) {
     return "<tr><td>" + row.cells.Amount + "</td></tr>";
 };
 
+var toHTML = function (row) {
+
+    var cell;
+    var html = '';
+
+    // Use "td" for table body row, "th" for table header rows.
+    var tag = (row.num) ? 'td' : 'th';
+
+    // Loop through each cell in the row.
+    for (cell in row.cells) {
+      if (row.cells.hasOwnProperty(cell)) {
+        // Wrap the cell value in the cell tag.
+        html += wrapTag(row.cells[cell], tag, '');
+      }
+    }
+    console.log(row); 
+    if (row.cells.Amount < threshold) {
+        return "<tr class='warning'><td>" + row.cells.Amount + "</td></tr>";
+    }
+    return "<tr><td>" + row.cells.Amount + "</td></tr>";
+    // Wrap the cells in a table row tag.
+    return wrapTag(html, 'tr', '');
+
+  };
+
 // Load Sales Floor
 $('#SalesFloor').sheetrock({
   url: mySalesFloor,
