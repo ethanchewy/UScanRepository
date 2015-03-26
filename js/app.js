@@ -36,11 +36,12 @@ var myPurchase = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4
 var threshold = 5;
 
 var formatRows = function (row) {
-    console.log(row);
+    console.log(row); 
     if (row.cells.Amount < threshold) {
         return "<tr class='warning'><td>" + row.cells.Amount + "</td></tr>";
     }
     return "<tr><td>" + row.cells.Amount + "</td></tr>";
+    return "<tr><td>" + row.cells + "</td></tr>";
 };
 
 // Load Sales Floor
