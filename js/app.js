@@ -39,12 +39,11 @@ var formatRows = function (row) {
     console.log(row); 
     if (row.cells.Amount < threshold) {
         return "<tr class='warning'><td>" + row.cells.Amount + "</td></tr>";
-    } else if {
+    } else if
       (row.cells.hasOwnProperty(cell)) {
         // Wrap the cell value in the cell tag.
         html += wrapTag(row.cells[cell], tag, '');
       }
-    }
     return "<tr><td>" + row.cells.Amount + "</td></tr>";
 };
 
