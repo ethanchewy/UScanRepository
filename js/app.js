@@ -34,13 +34,21 @@ var myPurchase = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4
 /* FORMAT ROWS HAS TO DO IT'S THING AFTER SHEETS IS LOADED!*/
 
 var threshold = 5;
+var thresholdColName = "Amount";
 
 var formatRows = function (row) {
-    console.log(row);
-    if (row.cells.Amount < threshold) {
-        return "<tr class='warning'><td>" + row.cells.Amount + "</td></tr>";
+    var header = "<tr>",
+        footer = "</tr>";
+
+    var html = "";
+    for (var key in row.cells) {
+        var cellHtml;
+        if (key == thresholdColName && row.cells[key] < threshold) {
+            header = "<tr class='warning'>";
+        }
+        html += "<td>" + row.cells[key] + "</td>";;
     }
-    return "<tr><td>" + row.cells.Amount + "</td></tr>";
+    return header + html + footer;
 };
 
 
@@ -59,7 +67,7 @@ $('#DataAnalysis').sheetrock({
 //Load Inventory
 $('#Inventory').sheetrock({
   url: myInventory,
-  /*rowHandler: formatRows */
+  rowHandler: formatRows 
 });
 
 //Load Purchase
