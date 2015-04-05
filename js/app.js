@@ -55,7 +55,8 @@ var formatRows = function (row) {
 // Load Sales Floor
 $('#SalesFloor').sheetrock({
   url: mySalesFloor,
-  rowHandler: formatRows
+  rowHandler: formatRows,
+  sql:"select B,C,D,E,F,G,H,I,J"
 });
 
 //Load Data Analysis
@@ -73,7 +74,8 @@ $('#Inventory').sheetrock({
 //Load Purchase
 $('#Purchase').sheetrock({
   url: myPurchase,
-  rowHandler: formatRows
+  rowHandler: formatRows,
+  sql:"select B,C,D,E,F,G,H,I,J"
 });
 /*
 $('#runing_low').sheetrock({
