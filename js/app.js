@@ -24,7 +24,7 @@ var mySalesFloor = 'https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxe
 //Data Analysis
 var myDataAnalysis = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=1813653491";
 //Stock Room
-var myStockRoom = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=1096456375";
+var myStockRoom = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=1784404855";
 //Purchased
 var myPurchase = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=783548062";
 
