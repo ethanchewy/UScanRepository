@@ -101,14 +101,14 @@ $('#StockRoom').sheetrock({
 $('#SalesFloor').sheetrock({
   url: mySalesFloor,
   rowHandler: formatRows,
-  sql:"select B,C,D,E,F,G,H,I,J"
+  /*sql:"select B,C,D,E,F,G,H,I,J" */
 });
 
 //Load Purchase
 $('#Purchase').sheetrock({
   url: myPurchase,
   rowHandler: formatRows,
-  sql:"select B,C,D,E,F,G,H,I,J"
+  /*sql:"select B,C,D,E,F,G,H,I,J" */
 });
 /*
 $('#runing_low').sheetrock({
