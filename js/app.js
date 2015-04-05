@@ -81,12 +81,7 @@ setInterval(function() {
 }, 3000);
 
 
-// Load Sales Floor
-$('#SalesFloor').sheetrock({
-  url: mySalesFloor,
-  rowHandler: formatRows,
-  sql:"select B,C,D,E,F,G,H,I,J"
-});
+
 
 //Load Data Analysis
 $('#DataAnalysis').sheetrock({
@@ -98,6 +93,13 @@ $('#DataAnalysis').sheetrock({
 $('#Inventory').sheetrock({
   url: myInventory,
   rowHandler: formatRows 
+});
+
+// Load Sales Floor
+$('#SalesFloor').sheetrock({
+  url: mySalesFloor,
+  rowHandler: formatRows,
+  sql:"select B,C,D,E,F,G,H,I,J"
 });
 
 //Load Purchase
