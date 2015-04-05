@@ -74,9 +74,10 @@ $('#reloadLink').click(function() {
 
 // Sets a timer that will call the reload method on our second table every 3 seconds.
 setInterval(function() {
+    reload(myInventory, $('#Inventory'));
     reload(mySalesFloor, $('#SalesFloor'));
     reload(myDataAnalysis, $('#DataAnalysis'));
-    reload(myInventory, $('#Inventory'));
+    
     reload(myPurchase, $('#Purchase'));
 }, 3000);
 
