@@ -56,7 +56,8 @@ var formatRows = function (row) {
 function load(url, el) {
     el.sheetrock({
       url: url,
-      resetStatus: true
+      resetStatus: true,
+      rowHandler: formatRows 
     });
 }
 
