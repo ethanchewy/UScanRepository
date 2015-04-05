@@ -256,3 +256,8 @@ footer {
 	font-size:25px;
 }
 
+/* img scalability */
+img {
+	width: 50%;
+  	height: auto;
+}
