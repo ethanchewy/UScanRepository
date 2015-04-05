@@ -73,14 +73,14 @@ $('#reloadLink').click(function() {
     reload(sheet, $('#exampleTable'));
 });
 
-// Sets a timer that will call the reload method on our second table every 3 seconds.
+// Sets a timer that will call the reload method on our second table every 15 seconds.
 setInterval(function() {
     reload(myInventory, $('#Inventory'));
     reload(mySalesFloor, $('#SalesFloor'));
     reload(myDataAnalysis, $('#DataAnalysis'));
     
     reload(myPurchase, $('#Purchase'));
-}, 3000);
+}, 15000);
 
 
 
