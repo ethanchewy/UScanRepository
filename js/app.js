@@ -93,7 +93,7 @@ $('#DataAnalysis').sheetrock({
 
 //Load Inventory
 $('#StockRoom').sheetrock({
-  url: myInventory,
+  url: myStockRoom,
   rowHandler: formatRows 
 });
 
