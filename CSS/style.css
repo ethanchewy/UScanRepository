@@ -113,6 +113,12 @@ h1 {
 }
 */
 
+/* image scalability */
+#logo{
+	width: 50%;
+  	height: auto;
+}
+
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
@@ -256,8 +262,4 @@ footer {
 	font-size:25px;
 }
 
-/* img scalability */
-img {
-	width: 50%;
-  	height: auto;
-}
+
