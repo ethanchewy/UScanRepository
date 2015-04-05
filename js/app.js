@@ -23,8 +23,8 @@ $(document).ready(function() {
 var mySalesFloor = 'https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=0';
 //Data Analysis
 var myDataAnalysis = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=1813653491";
-//Inventory
-var myStockRoom = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=1784404855";
+//Stock Room
+var myStockRoom = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=1096456375";
 //Purchased
 var myPurchase = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=201486995";
 
@@ -91,7 +91,7 @@ $('#DataAnalysis').sheetrock({
   rowHandler: formatRows
 });
 
-//Load Inventory
+//Load Stock Room
 $('#StockRoom').sheetrock({
   url: myStockRoom,
   rowHandler: formatRows 
