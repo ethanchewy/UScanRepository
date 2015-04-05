@@ -51,6 +51,32 @@ var formatRows = function (row) {
     return header + html + footer;
 };
 
+/* Thank You Michael => http://jsfiddle.net/qb26phrv/2/ */
+// Method that takes a spreadsheet URL and loads it into the provided jQuery element.
+function load(url, el) {
+    el.sheetrock({
+      url: url,
+      resetStatus: true
+    });
+}
+
+// Method that clears out the provided jQuery element and loads a spreadsheet back in.
+function reload(url, el) {
+    el.empty();
+    load(url, el);
+}
+
+// Provides click functionality to the reload link.
+//ADD RELOAD TAB IN HTML SOON
+$('#reloadLink').click(function() {
+    reload(sheet, $('#exampleTable'));
+});
+
+// Sets a timer that will call the reload method on our second table every 3 seconds.
+setInterval(function() {
+    reload(mySalesFloor, $('#SalesFloor'));
+}, 3000);
+
 
 // Load Sales Floor
 $('#SalesFloor').sheetrock({
