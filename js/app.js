@@ -24,7 +24,7 @@ var mySalesFloor = 'https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxe
 //Data Analysis
 var myDataAnalysis = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=1813653491";
 //Inventory
-var myInventory = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=1116642020";
+var myStockRoom = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=1784404855";
 //Purchased
 var myPurchase = "https://docs.google.com/spreadsheet/ccc?key=11x3_5BinmTr4sxeH4TiQrgvwp6OPKmERSOSuFrTPTH4#gid=201486995";
 
@@ -75,7 +75,7 @@ $('#reloadLink').click(function() {
 
 // Sets a timer that will call the reload method on our second table every 15 seconds.
 setInterval(function() {
-    reload(myInventory, $('#Inventory'));
+    reload(myStockRoom, $('#StockRoom'));
     reload(mySalesFloor, $('#SalesFloor'));
     reload(myDataAnalysis, $('#DataAnalysis'));
     
@@ -92,7 +92,7 @@ $('#DataAnalysis').sheetrock({
 });
 
 //Load Inventory
-$('#Inventory').sheetrock({
+$('#StockRoom').sheetrock({
   url: myInventory,
   rowHandler: formatRows 
 });
