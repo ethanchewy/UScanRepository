@@ -78,8 +78,8 @@ setInterval(function() {
     reload(myStockRoom, $('#StockRoom'));
     reload(mySalesFloor, $('#SalesFloor'));
     reload(myDataAnalysis, $('#DataAnalysis'));
-    
     reload(myPurchase, $('#Purchase'));
+    reload($('GoogleGraph'));
 }, 15000);
 
 
@@ -128,6 +128,7 @@ $('#bar1').click(function() {
     $('#SalesFloor').slideUp();
     /*$('#DataAnalysis').slideUp(); */
     $('#Purchase').slideUp();
+    
 });
 
 $('#bar2').click(function() {
