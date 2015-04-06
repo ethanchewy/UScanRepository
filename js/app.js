@@ -124,7 +124,7 @@ $('#runing_low').sheetrock({
 /* bar clicking stuff */
 
 $('#bar1').click(function() {
-    $('#Inventory').fadeIn();
+    $('#StockRoom').fadeIn();
     $('#SalesFloor').slideUp();
     /*$('#DataAnalysis').slideUp(); */
     $('#Purchase').slideUp();
@@ -133,21 +133,21 @@ $('#bar1').click(function() {
 
 $('#bar2').click(function() {
     $('#SalesFloor').fadeIn();
-    $('#Inventory').slideUp();
+    $('#StockRoom').slideUp();
     /*$('#DataAnalysis').slideUp(); */
     $('#Purchase').slideUp();
 });
 
 $('#bar3').click(function() {
     $('#Purchase').fadeIn();
-    $('#Inventory').slideUp();
+    $('#StockRoom').slideUp();
     /*$('#DataAnalysis').slideUp();*/
     $('#SalesFloor').slideUp();
 });
 
 $('#bar4').click(function() {
     /*$('#DataAnalysis').fadeIn(); */
-    $('#Inventory').fadeIn();
+    $('#StockRoom').fadeIn();
     $('#Purchase').fadeIn();
     $('#SalesFloor').fadeIn();
 });
