@@ -161,4 +161,11 @@ $('#bar5').click(function() {
 });
 */
 
+/*CHART STUFF */
+var myBarChart = new Chart(ctx).Bar(mySalesFloor, options);
+
+new Chart(ctx).Bar(data, {
+    barShowStroke: false
+});
+
 
